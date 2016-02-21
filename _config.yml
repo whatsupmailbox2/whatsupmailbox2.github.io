@@ -2,7 +2,7 @@
 title: Whatsup Mailbox 
 email: info@whatsupmailbox.com
 description: Whatsup mailbox!
-baseurl: "/" # the subpath of your site, e.g. /blog/
+# baseurl: "/" # the subpath of your site, e.g. /blog/
 # url: "http://sodakscreens.github.io" # the base hostname & protocol for your site
 twitter_username: whatsupmailbox
 github_username:  
