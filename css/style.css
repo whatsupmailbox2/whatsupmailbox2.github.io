@@ -3181,7 +3181,7 @@ body {
 /* */
 #wmb-search-box input[type="text"] {
     background: #fff;
-    border-radius: 10px 0 0 10px;
+    border-radius: 0 10px 10px 0;
     box-shadow: none;
     height: 46px;
     margin-bottom: 0;
