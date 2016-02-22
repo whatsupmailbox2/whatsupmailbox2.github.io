@@ -15,6 +15,16 @@
     </ul>
     <section class='top-bar-section'>
       <ul class='right'>
+          <li>
+          <form class="header-search" action="http://whatsupmailbox.com/search">
+            <div class="form-input __search">
+                <input class="__round" placeholder="Search text ..." type="text" name="q">
+                <button class="btn __search">
+                    <i class="btn-ico fa fa-search"></i>
+                </button>
+            </div>
+        </form>
+          </li>
         {% for item in site.data.nav %}
           {% if item.children %}
             <li class="has-dropdown">
