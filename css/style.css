@@ -333,7 +333,7 @@ ul.shortcode-list i {
   -webkit-transition-duration: 0.2s;
   transition-duration: 0.2s;
 }
-.f-topbar-fixed.shrink .top-bar .top-bar-section li:not(.has-form) a:not(.button) {
+.f-topbar-fixed.shrink .top-bar .top-bar-section li a:not(.button) {
   height: 60px;
   line-height: 60px;
   -moz-transition-property: all;
@@ -348,7 +348,7 @@ ul.shortcode-list i {
 .f-topbar-fixed.shrink .top-bar .top-bar-section .has-dropdown > a:after {
   top: 2.14286rem;
 }
-.f-topbar-fixed.shrink .top-bar .top-bar-section .dropdown li:not(.has-form) a:not(.button) {
+.f-topbar-fixed.shrink .top-bar .top-bar-section .dropdown li a:not(.button) {
   height: 60px;
   line-height: 60px;
 }
