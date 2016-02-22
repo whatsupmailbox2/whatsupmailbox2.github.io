@@ -9,13 +9,7 @@
           </a>
         </h1>
       </li>
-      <li class='toggle-topbar menu-icon'>
-        <a href='#'>Menu</a>
-      </li>
-    </ul>
-    <section class='top-bar-section'>
-      <ul class='left'>
-        <li class="has-form">
+      <li class="has-form">
         <div class="row collapse">
             <form class="header-search" action="http://whatsupmailbox.com/search">
             <div class="large-8 small-9 columns">
@@ -26,8 +20,12 @@
             </div>
             </form>
         </div>
-        </li>
-      </ul>
+      </li>
+      <li class='toggle-topbar menu-icon'>
+        <a href='#'>Menu</a>
+      </li>
+    </ul>
+    <section class='top-bar-section'>
       <ul class='right'>
         {% for item in site.data.nav %}
           {% if item.children %}
