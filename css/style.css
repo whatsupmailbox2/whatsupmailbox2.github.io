@@ -3181,7 +3181,7 @@ body {
 /* */
 #wmb-search-box input[type="text"] {
     background: #fff;
-    border: none;
+    border: 1px #888 solid;
     border-radius: 10px 0 0 10px;
     box-shadow: none;
     height: 46px;
@@ -3197,7 +3197,8 @@ body {
  #wmb-search-box button.button.postfix {
     color: #B0B0B0;
     background-color: #FFF;
-    border: none;
+    border: 1px #888 solid;
+    border-radius: 10px 0 0 10px;
     height: 46px;
     margin-bottom: 0;
     margin-left: -5px;
