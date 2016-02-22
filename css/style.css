@@ -3177,6 +3177,48 @@ body {
 .modTestimonials.simple .slick-slider {
   margin-bottom: 10px;
 }
+
+/* */
+#wmb-search-box {
+  input[type="text"] {
+    background: url("../img/parts/google-cse.gif") no-repeat 8px 16px #fff;
+    border: none;
+    border-radius: 10px 0 0 10px;
+    box-shadow: none;
+    height: 46px;
+    margin-bottom: 0;
+    width: 128px;
+    display: inline;
+    @media #{$small-only} {
+      height: 40px;
+      background: url("../img/parts/google-cse.gif") no-repeat 8px 13px #fff;
+    }
+    @media (max-width: 640px) {
+      border-radius: 3px 0 0 3px;
+    }
+  }
+  input[type="text"]:focus {
+    background-image: none;
+  }
+  button.button.postfix {
+    color: #B0B0B0;
+    background-color: #FFF;
+    border: none;
+    height: 46px;
+    margin-bottom: 0;
+    margin-left: -5px;
+    width: 46px;
+    display: inline;
+    @media #{$small-only} {
+      height: 40px;
+    }
+    @media (max-width: 640px) {
+      border-radius: 0 3px 3px 0;
+    }
+  }
+}
+
+
 @media only screen and (max-width: 60em) {
   .modTeamMember .overlay {
     opacity: 1;
