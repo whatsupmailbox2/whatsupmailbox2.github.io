@@ -348,6 +348,12 @@ ul.shortcode-list i {
 .f-topbar-fixed.shrink .top-bar .top-bar-section .has-dropdown > a:after {
   top: 2.14286rem;
 }
+
+.f-topbar-fixed.shrink .top-bar input, .f-topbar-fixed.shrink .top-bar .button, .f-topbar-fixed.shrink .top-bar button 
+{ 
+    top: 0.57143rem;
+}
+
 .f-topbar-fixed.shrink .top-bar .top-bar-section .dropdown li a:not(.button) {
   height: 60px;
   line-height: 60px;
