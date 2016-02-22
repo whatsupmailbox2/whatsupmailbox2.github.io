@@ -9,21 +9,25 @@
           </a>
         </h1>
       </li>
-    <li class="has-form">
-      <div class="row collapse">
-        <div class="large-8 small-9 columns">
-          <input type="text" placeholder="Find Stuff">
-        </div>
-        <div class="large-4 small-3 columns">
-          <a href="#" class="alert button expand">Search</a>
-        </div>
-      </div>
-    </li>
       <li class='toggle-topbar menu-icon'>
-        <a href='#'></a>
+        <a href='#'>Menu</a>
       </li>
     </ul>
     <section class='top-bar-section'>
+      <ul class='left'>
+        <li class="has-form">
+    <div class="large-6 columns">
+      <div class="row collapse postfix-round">
+        <div class="small-9 columns">
+          <input type="text" placeholder="Value">
+        </div>
+        <div class="small-3 columns">
+          <a href="#" class="button postfix">Go</a>
+        </div>
+      </div>
+    </div>
+        </li>
+      </ul>
       <ul class='right'>
         {% for item in site.data.nav %}
           {% if item.children %}
