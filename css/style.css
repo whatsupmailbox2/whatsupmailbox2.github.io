@@ -2562,109 +2562,7 @@ body {
 .modMasonryGallery ul.gallery li.hidden {
   opacity: 0.1;
 }
-.modMilestone {
-  text-align: center;
-}
-.modMilestone i {
-  font-size: 36px;
-  color: #333;
-  background: #F9CE06;
-  width: 90px;
-  height: 90px;
-  -moz-border-radius: 45px;
-  -webkit-border-radius: 45px;
-  border-radius: 45px;
-  text-align: center;
-  padding: 27px;
-  display: inline-block;
-  margin-bottom: 45px;
-}
-.modMilestone strong {
-  font-size: 3.42857rem;
-  display: block;
-  margin-bottom: 30px;
-}
-.modMilestone span {
-  letter-spacing: 1px;
-  text-transform: uppercase;
-}
 
-.modMilestone.no-icon {
-  padding: 30px 0 10px;
-}
-.modMilestone.no-icon strong {
-  font-size: 4.28571rem;
-}
-.modPriceBox {
-  border: 1px solid #e0e0e0;
-  padding: 0 15px 15px;
-  margin: 0 0 60px;
-  background-color: #fff;
-  text-align: center;
-}
-.modPriceBox ul {
-  margin-left: 0;
-  list-style: none;
-}
-.modPriceBox .info {
-  border-top: 4px solid #bbb;
-  padding: 20px 0 0;
-}
-.modPriceBox li {
-  background: #eee;
-  color: #999;
-}
-.modPriceBox li.even {
-  background: #f7f7f7;
-}
-.modPriceBox p.level {
-  font-size: 18px;
-  font-weight: bold;
-  text-transform: uppercase;
-  margin: 0 0 5px;
-}
-.modPriceBox p.desc {
-  font-size: 14px;
-  margin-bottom: 20px;
-  color: #999;
-}
-.modPriceBox p.price {
-  font-size: 16px;
-  color: #666;
-  font-style: italic;
-  border-bottom: 1px solid #d0d0d0;
-  margin: 0;
-  padding-bottom: 10px;
-}
-.modPriceBox p.price .dollar {
-  font-size: 30px;
-  color: #333;
-  font-style: normal;
-  position: relative;
-  top: -30px;
-}
-.modPriceBox p.price .number {
-  font-size: 70px;
-  color: #333;
-  font-style: normal;
-}
-.modPriceBox .features {
-  margin: 0 0 30px;
-}
-.modPriceBox .features li {
-  padding: 5px 0;
-}
-.modPriceBox p.start {
-  margin: 0;
-}
-
-.modPriceBox.featured .info {
-  border-top: 4px solid #F9CE06;
-}
-
-.modPriceBox:hover {
-  background-color: rgba(255, 255, 255, 0.7);
-}
 .modSectionHeader .special-title h2 {
   text-transform: uppercase;
   display: inline-block;
@@ -2842,81 +2740,6 @@ body {
 }
 .modStylePanel a#pattern-10 {
   background: url(../images/pattern-10.png) left top no-repeat;
-}
-.modTeamMember .member {
-  position: relative;
-  overflow: hidden;
-  margin-bottom: 20px;
-}
-.modTeamMember ul {
-  margin: 0;
-}
-.modTeamMember ul li {
-  list-style: none;
-  display: inline-block;
-  margin-right: 8px;
-}
-.modTeamMember ul i {
-  width: 36px;
-  height: 36px;
-  -moz-border-radius: 18px;
-  -webkit-border-radius: 18px;
-  border-radius: 18px;
-  background: #F9CE06;
-  color: #fff;
-  text-align: center;
-  font-size: 1.125rem;
-  line-height: 2.5rem;
-}
-.modTeamMember img {
-  width: 100%;
-}
-.modTeamMember .overlay {
-  opacity: 0;
-  background-color: rgba(255, 255, 255, 0.9);
-  text-align: center;
-  vertical-align: middle;
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  top: 100%;
-}
-.modTeamMember .overlay .intro {
-  position: relative;
-  top: 50%;
-  margin-top: -60px;
-}
-.modTeamMember .overlay h3 {
-  margin-bottom: 10px;
-}
-.modTeamMember .overlay p {
-  font-style: italic;
-  margin-bottom: 30px;
-}
-.modTeamMember .member:hover .overlay {
-  opacity: 1;
-  -moz-transition-duration: 0.5s;
-  -o-transition-duration: 0.5s;
-  -webkit-transition-duration: 0.5s;
-  transition-duration: 0.5s;
-  top: 0;
-}
-
-.modTeamMember.style-2 h3 {
-  margin-bottom: 0;
-}
-.modTeamMember.style-2 p.position {
-  text-transform: uppercase;
-  letter-spacing: 3px;
-  font-size: 0.8rem;
-}
-.modTeamMember.style-2 .overlay {
-  background-color: rgba(255, 255, 255, 0.7);
-}
-.modTeamMember.style-2 .overlay ul.socials {
-  position: relative;
-  top: 50%;
-  margin-top: -18px;
 }
 
 /* Slider */
@@ -3146,37 +2969,6 @@ body {
   opacity: 0.75;
 }
 
-.modTestimonials {
-  padding: 0 60px;
-}
-.modTestimonials p.quote {
-  font-size: 1.5rem;
-  margin-bottom: 30px;
-}
-.modTestimonials p.author {
-  font-style: italic;
-}
-.modTestimonials .slick-dots li button:before {
-  font-size: 30px;
-  top: -40px;
-}
-
-.modTestimonials.simple {
-  padding: 0;
-}
-.modTestimonials.simple .author .author-avatar {
-  float: left;
-  margin-right: 15px;
-}
-.modTestimonials.simple .author .author-name {
-  padding-top: 30px;
-}
-.modTestimonials.simple .author .author-name strong {
-  color: #333;
-}
-.modTestimonials.simple .slick-slider {
-  margin-bottom: 10px;
-}
 
 /* */
 #wmb-search-box input[type="text"] {
@@ -3188,7 +2980,7 @@ body {
     width: 228px;
     display: inline;
   }
-  
+ 
  #wmb-search-box input[type="text"]:focus {
     background-image: none;
   }
@@ -3203,43 +2995,6 @@ body {
 }
 
 @media only screen and (max-width: 60em) {
-  .modTeamMember .overlay {
-    opacity: 1;
-    background-color: rgba(255, 255, 255, 0.8);
-    top: 0;
-  }
-  .modTeamMember .overlay .intro {
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    top: 60%;
-  }
-  .modTeamMember .overlay h3 {
-    margin-bottom: 3px;
-  }
-  .modTeamMember .overlay p {
-    margin-bottom: 10px;
-  }
-  .modTeamMember ul i {
-    width: 24px;
-    height: 24px;
-    -moz-border-radius: 12px;
-    -webkit-border-radius: 12px;
-    border-radius: 12px;
-    font-size: 1rem;
-    line-height: 1.8rem;
-  }
-
-  .modTeamMember.style-2 .overlay {
-    background-color: rgba(255, 255, 255, 0.7);
-  }
-  .modTeamMember.style-2 .overlay ul.socials {
-    position: absolute;
-    width: 100%;
-    top: 50%;
-    margin-top: -18px;
-  }
-
   .parallax {
     background-attachment: scroll;
   }
