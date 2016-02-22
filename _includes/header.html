@@ -15,18 +15,13 @@
     </ul>
     <section class='top-bar-section'>
       <ul class='left'>
-        <li class="has-form">
-        <div class="row collapse">
-            <form class="header-search" action="http://whatsupmailbox.com/search">
-            <div class="large-8 small-9 columns">
-            <input type="text" placeholder="Find Stuff" name="q">
-            </div>
-            <div class="large-4 small-3 columns">
-            <a href="#" class="alert button expand">Search</a>
-            </div>
-            </form>
-        </div>
-        </li>
+<li class="has-form"><form id="wmb-search-box" action="http://www.uwosh.edu/search" class="show-for-medium-up">
+  <input type="hidden" name="cx" value="007334596040304417000:1pnst7hkwe0">
+  <input type="hidden" name="ie" value="UTF-8">
+  <input type="text" name="q" size="31" class="radius site-search-field">
+  <button type="submit" name="sa" class="button postfix"><i class="fa fa-search"></i></button>
+</form>
+</li>
       </ul>
       <ul class='right'>
         {% for item in site.data.nav %}
