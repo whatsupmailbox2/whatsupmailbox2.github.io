@@ -3181,12 +3181,11 @@ body {
 /* */
 #wmb-search-box input[type="text"] {
     background: #fff;
-    border: 1px #888 solid;
     border-radius: 10px 0 0 10px;
     box-shadow: none;
     height: 46px;
     margin-bottom: 0;
-    width: 128px;
+    width: 228px;
     display: inline;
   }
   
@@ -3195,9 +3194,6 @@ body {
   }
   
  #wmb-search-box button.button.postfix {
-    color: #B0B0B0;
-    background-color: #FFF;
-    border: 1px #888 solid;
     border-radius: 10px 0 0 10px;
     height: 46px;
     margin-bottom: 0;
